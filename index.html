@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMDB API</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1>Buscar filmes e séries</h1>
+    <hr>
+    <label for="title"><sub>Pesquisar título do filme ou série:</sub></label>
+    <input type="text" name="title" id="search-title">
+    <input type="button" value="exibir json" class="search-btn" alt="json">
+    <input type="button" value="pesquisar títulos" class="search-btn" alt="result">
+    <div id="result-container">
+    </div>
+    <div id="json-container"></div>
+</body>
+
+<script src="./js/apiReq.js"></script>
+
+</html>
